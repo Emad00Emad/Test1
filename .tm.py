@@ -4,8 +4,9 @@ import os,sys,requests,time
 
 def Emad():
 	if Emadman in requests.get("https://raw.githubusercontent.com/Emad00Emad/Test1/main/.m.txt").text:
-		os.system("python .tm.py")
+		Zz()
 	else:
+		os.system("clear")
 		print(" Hello dear user, sorry, this code has been updated. Wait five minutes. The old code will be automatically deleted and the updated code will be installed from the programmer. [ Emad alkhashen ] Thank you.")
 		time.sleep(50)
 		os.system("clear")
