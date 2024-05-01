@@ -1,7 +1,6 @@
 import os,sys,requests,time
 
 
-
 def Emad():
 	if Emadman in requests.get("https://raw.githubusercontent.com/Emad00Emad/Test1/main/.m.txt").text:
 		Zz()
@@ -18,7 +17,9 @@ def Emad():
 
 
 def Zz():
+	os.system("clear")
 	print(" Hi prooo ")
+
 
 
 if __name__=='__main__':
