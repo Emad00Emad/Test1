@@ -20,7 +20,7 @@ def Zz():
 	print(" Hi prooo ")
 
 
-if "__T__"==__T__:
+if __name__=='__main__':
 	try:Emadman = requests.get("https://raw.githubusercontent.com/Emad00Emad/Test1/main/.f.txt").text
 	except:pass
 	Emad()
